@@ -1,0 +1,18 @@
+#box{ 
+    width: 300px;
+    height: 300px;
+    color: rgb(255, 0, 0);
+    border-radius: 10px;
+    padding: 20px;
+    border: 2px solid red;
+    text-align: center;
+    background-image: url("../img/escudo.jpg");
+    background-size: cover;
+    background-color: black;
+    background-position: center;
+    
+}
+
+#box h1{ 
+    background-color: rgba(151, 29, 29, 0.5);
+}

@@ -1,0 +1,93 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgb(158,34,34);
+    background: linear-gradient(90deg, rgba(158,34,34,1) 19%, rgba(10,8,8,1) 85%);
+}
+
+#navegacao{ 
+    background-color:white;
+    height: 45px;
+    
+}
+
+#area{ 
+    width: 720px; 
+    margin: 0px ;
+}
+
+#area-principal{ 
+    width: 720px; 
+    margin: 10px auto;
+    
+}
+
+#logo{ 
+    float: left;
+    padding: 5px;
+    
+}
+
+#menu{ 
+    float: right;
+    padding: 10px;
+    margin-left: 10%;
+
+}
+
+#postagem{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.red{ 
+    color: rgb(255, 0, 0);
+}
+
+.data-da-postagem{ 
+    font-size: 14px;
+    border-bottom: 1px solid rgb(255, 8, 0);
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+a{ 
+    text-decoration: none;
+    padding: 5px 10px;
+    color: black;
+}
+a:hover{ 
+    background-color: rgb(255, 30, 0);
+    
+}
+
+
+a:active{ 
+    color: rgb(0, 0, 0);
+}
+
+.imagem-postagem{ 
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 5px 0px;
+    border: 1px solid red;
+}
+
+.autor{ 
+    border-left: 5px solid red;
+    padding-left: 10px;
+    display: block;
+    margin-top: 10px;
+}
+img{ 
+    object-fit: cover;
+}

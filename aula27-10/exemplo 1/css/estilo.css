@@ -1,0 +1,18 @@
+body{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: blueviolet;
+    background-image: url("https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2022%2F0815%2Fr1048669_1296x729_16%2D9.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.noticia{ 
+    border: 4px solid blue;
+    width: 350px;
+    height: 350px;
+    padding: 25px;
+    margin: 10px;
+    color: white;
+}

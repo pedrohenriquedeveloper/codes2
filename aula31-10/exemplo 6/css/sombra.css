@@ -1,0 +1,16 @@
+#box{ 
+    width: 400px;
+    height: 400px;
+    padding: 8px;
+    margin: 50px auto;
+    background-color: rgb(0, 217, 255);
+    text-align: justify;
+    box-shadow: 4px 10px 10px red, -4px -10px 10px black;
+}
+
+#box h1{ 
+    color: purple;
+     text-align: center;
+     text-shadow: 7px 7px 5px rgba(255, 0, 0, 0.4);
+     font-size: 60px;
+}
